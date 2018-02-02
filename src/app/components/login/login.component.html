@@ -1,0 +1,8 @@
+<input [(ngModel)] = "mediaService.username" placeholder="username">
+<br>
+<input type="password" [(ngModel)] = "mediaService.password" placeholder="password">
+<br>
+<button (click)="mediaService.login()">Login</button>
+<br>
+{{mediaService.status}}
+  
